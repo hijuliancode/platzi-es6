@@ -29,3 +29,12 @@ console.log(lorem);
 console.log(lorem2);
 
 // Destructuración
+let person = {
+  'name': 'Julian',
+  'age': '28',
+  'country': 'CO'
+}
+
+let { name, age, country } = person
+
+console.log(name, age, country)
