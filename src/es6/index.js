@@ -15,3 +15,17 @@ function newFunction2(name = 'Valentina', age = 8, country = 'CO') {
 
 newFunction2()
 newFunction2('Meraki', 9, 'FI')
+
+
+
+// Multilinea
+let lorem = "Qui consequatur. Commodi. Ipsum ve duis yet minima \n"
++ "Otra frase epica que necesitamos.";
+
+let lorem2 = `Otra frase epica que necesitamos
+Ahora es otra frase epica`;
+
+console.log(lorem);
+console.log(lorem2);
+
+// Destructuración
