@@ -46,3 +46,17 @@ let team2 = ['Valentina', 'Ginna', 'Meraki']
 let education = ['David', ...team1, ...team2]
 
 console.log(education)
+
+// Var, Let, Const
+{
+  var globalVar = 'Global Var'
+}
+{
+  var localLet = 'Local Let'
+  console.log(localLet)
+}
+console.log(globalVar)
+
+const a = 'b'
+// a = 'a' // ERROR
+console.log(a)
