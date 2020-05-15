@@ -14,6 +14,8 @@ console.log(hello)
 console.log(hello.trimStart())
 console.log(hello.trimEnd())
 
+// Optional Catch Binding
+
 // try catch ERROR
 try {
 
