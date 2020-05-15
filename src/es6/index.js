@@ -73,3 +73,10 @@ obj = { name: name, age: age };
 obj2 = { name, age };
 
 console.log(obj2)
+
+// Arrow functions
+const names = [
+  { name: 'Julian', age: 28 },
+  { name: 'Meraki', age: 8 }
+]
+const listOfNames = names.map(item => console.log(item.name))
