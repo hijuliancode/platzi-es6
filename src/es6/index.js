@@ -60,3 +60,16 @@ console.log(globalVar)
 const a = 'b'
 // a = 'a' // ERROR
 console.log(a)
+
+
+/// Arrow Functions, Promises and Parameters on objects
+
+// Parameters on Objects
+let name = 'Julian';
+let age = 28;
+// es5
+obj = { name: name, age: age };
+// es6
+obj2 = { name, age };
+
+console.log(obj2)
