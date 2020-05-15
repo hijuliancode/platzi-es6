@@ -80,3 +80,20 @@ const names = [
   { name: 'Meraki', age: 8 }
 ]
 const listOfNames = names.map(item => console.log(item.name))
+
+// Promises
+
+const helloPromise = () => {
+  return new Promise((resolve, reject) => {
+    if (false) {
+      resolve('Hey!')
+    } else {
+      reject('Ups!!')
+    }
+  })
+}
+
+helloPromise()
+  .then(response => console.log(response))
+  .then(() => console.log('hola!'))
+  .catch(error => console.log(error));
