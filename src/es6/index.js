@@ -113,3 +113,7 @@ class calculator {
 
 const calc = new calculator()
 console.log(calc.sum(20, 10))
+
+// Modules
+import { hello } from "./module";
+hello()
