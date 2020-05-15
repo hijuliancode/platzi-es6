@@ -38,3 +38,11 @@ let person = {
 let { name, age, country } = person
 
 console.log(name, age, country)
+
+// Spread Operator
+let team1 = ['Julian', 'Edwin', 'Carlos']
+let team2 = ['Valentina', 'Ginna', 'Meraki']
+
+let education = ['David', ...team1, ...team2]
+
+console.log(education)
